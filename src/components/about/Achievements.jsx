@@ -14,7 +14,7 @@ const Achievements = () => {
         <div className="col-6" key={i}>
           <div className="box-stats with-margin">
             <h3 className="poppins-font position-relative">{val.title}</h3>
-            <p className="open-sans-font m-0 position-relative text-uppercase">
+            <p className="open-sans-font m-0 position-relative text-uppercase" style={{ fontSize: '0.8rem' }}>
               {val.subTitle1} <span className="d-block">{val.subTitle2}</span>
             </p>
           </div>

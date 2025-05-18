@@ -72,7 +72,7 @@ const Hero = () => {
                 <h1>
                   HAKKIMDA
                 </h1>
-                <span className="title-bg">ÖZGEÇMİŞ</span>
+                <span className="title-bg" > ÖZGEÇMİŞ</span>
               </div>
               {/* End title */}
               <Index />
@@ -80,7 +80,7 @@ const Hero = () => {
           </div>
         </div>
         {/* End modal box news */}
-      </Modal>
+      </Modal >
       {/* End  Modal for About More */}
     </>
   );

@@ -8,6 +8,7 @@ const personalInfoContent = [
   { meta: "Freelance", metaInfo: "Mevcut" },
   { meta: "Adres", metaInfo: "Balıkesir,Türkiye" },
   { meta: "Email", metaInfo: "eniszorbazer@gmail.com" },
+  { meta: "", metaInfo: "" },
   { meta: "Diller", metaInfo: "Türkçe, İngilizce" },
 ];
 
@@ -16,8 +17,8 @@ const PersonalInfo = () => {
     <ul className="about-list list-unstyled open-sans-font">
       {personalInfoContent.map((val, i) => (
         <li key={i}>
-          <span className="title">{val.meta}: </span>
-          <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
+          <span className="title">{val.meta + (val.meta ? ':' : '')} </span>
+          <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block" >
             {val.metaInfo}
           </span>
         </li>

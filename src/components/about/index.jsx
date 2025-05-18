@@ -26,7 +26,7 @@ const index = () => {
               <div className="col-12 d-block d-sm-none">
                 <img
                   src={heroImgMobile}
-                  className="img-fluid main-img-mobile"
+                  className="img-fluid main-img-mobile object-fit-cover"
                   alt="about avatar"
                 />
               </div>
